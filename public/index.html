@@ -17,16 +17,36 @@
         <div class="name">Nina Sophia Link</div>
         <div class="role">Postdoctoral Researcher · Geneva Graduate Institute</div>
       </div>
-      <nav class="nav">
-        <a href="#research">Research</a>
-        <a href="#projects">AIMM</a>
-        <a href="#publications">Publications</a>
-        <a href="#contact">Contact</a>
-      </nav>
+
+      <div class="header-right">
+        <nav class="nav">
+          <a href="#research">Research</a>
+          <a href="#consulting">Consulting</a>
+          <a href="#resources">Resources</a>
+          <a href="#contact">Contact</a>
+        </nav>
+
+        <div class="header-icons" aria-label="Profiles">
+          <a class="icon-link" href="https://orcid.org/0000-0003-4726-0865" target="_blank" rel="noopener" aria-label="ORCID">
+            <!-- ORCID icon -->
+            <svg viewBox="0 0 256 256" role="img" aria-hidden="true">
+              <path d="M128 20C68.5 20 20 68.5 20 128s48.5 108 108 108 108-48.5 108-108S187.5 20 128 20zm0 200c-50.7 0-92-41.3-92-92s41.3-92 92-92 92 41.3 92 92-41.3 92-92 92z"/>
+              <path d="M86 96h18v78H86zM95 74c6 0 11 5 11 11s-5 11-11 11-11-5-11-11 5-11 11-11zM123 96h34c27 0 46 14 46 39s-19 39-46 39h-34V96zm18 16v46h14c17 0 30-7 30-23s-13-23-30-23h-14z"/>
+            </svg>
+          </a>
+
+          <a class="icon-link" href="https://github.com/ninslink" target="_blank" rel="noopener" aria-label="GitHub">
+            <!-- GitHub icon -->
+            <svg viewBox="0 0 24 24" role="img" aria-hidden="true">
+              <path d="M12 .5C5.73.5.75 5.7.75 12.1c0 5.1 3.29 9.4 7.86 10.9.58.11.79-.26.79-.57v-2.1c-3.2.71-3.87-1.28-3.87-1.28-.52-1.37-1.27-1.74-1.27-1.74-1.04-.73.08-.72.08-.72 1.15.08 1.75 1.2 1.75 1.2 1.02 1.78 2.68 1.27 3.34.97.1-.76.4-1.27.72-1.56-2.55-.3-5.23-1.31-5.23-5.83 0-1.29.45-2.35 1.2-3.18-.12-.3-.52-1.52.11-3.17 0 0 .98-.32 3.2 1.22.93-.26 1.93-.39 2.93-.39s2 .13 2.93.39c2.22-1.54 3.2-1.22 3.2-1.22.63 1.65.23 2.87.11 3.17.74.83 1.2 1.89 1.2 3.18 0 4.53-2.69 5.53-5.25 5.83.41.36.77 1.08.77 2.17v3.22c0 .32.21.69.8.57 4.57-1.49 7.86-5.78 7.86-10.9C23.25 5.7 18.27.5 12 .5z"/>
+            </svg>
+          </a>
+        </div>
+      </div>
     </div>
   </header>
 
-  <!-- HERO -->
+  <!-- LANDING -->
   <section class="hero hero-image">
     <img src="images/header.jpg" alt="Fieldwork" class="hero-img" />
     <div class="hero-overlay"></div>
@@ -41,93 +61,158 @@
       </p>
 
       <p class="lead">
-        I completed my PhD at the Geneva Graduate Institute, examining the social and behavioral roots of child undernutrition in Kenya.
-        I currently work on the SNSF- and Innosuisse-funded Artificial Intelligence for Monitoring Malnutrition (AIMM) Project,
+        I completed my PhD at the Institute, examining the social and behavioral roots of child undernutrition in Kenya.
+        I currently work on the SNSF- and Innosuisse-funded <strong>Artificial Intelligence for Monitoring Malnutrition (AIMM)</strong>,
         developing and testing an AI-enhanced smartphone app for accurate, timely, and non-intrusive nutrition monitoring
         in low-resource settings.
       </p>
 
+      <div class="card hero-card">
+        <h3>Core expertise</h3>
+        <ul class="bullets bullets-grid">
+          <li><strong>Evidence-based advisory:</strong> Empirical social research, policy analysis, program evaluation</li>
+          <li><strong>Data management:</strong> Database design and maintenance, data quality assurance, data protection (GDPR)</li>
+          <li><strong>Analysis:</strong> Interviews, case studies, document analysis, statistics, machine learning, agent-based modeling</li>
+          <li><strong>Visualization:</strong> Interactive dashboards, maps, fact sheets, social media graphics</li>
+          <li><strong>Communication:</strong> Academic publications, policy briefs, reports, presentations</li>
+          <li><strong>Software & tools:</strong> R, Python, SQL, ArcGIS, Excel (incl. VBA), MS Office, Teams</li>
+          <li><strong>Languages:</strong> German (native), English (C2), French (B2)</li>
+        </ul>
+      </div>
+
       <div class="pill-row">
         <span class="pill">Global health</span>
-        <span class="pill">Child Nutrition</span>
-        <span class="pill">Evidence-based Decision-making</span>
+        <span class="pill">Nutrition</span>
+        <span class="pill">Monitoring</span>
         <span class="pill">SDG2</span>
       </div>
     </div>
   </section>
 
-  <!-- RESEARCH -->
-  <section id="research" class="section">
-    <div class="container">
-      <h2>Research</h2>
-      <div class="grid-3">
+  <main>
+    <!-- RESEARCH -->
+    <section id="research" class="section section-alt">
+      <div class="container">
+        <h2>Research</h2>
+
         <div class="card">
-          <h3>Community-led monitoring</h3>
-          <p>Designing measurement systems that fit local realities and empower communities to generate actionable data.</p>
+          <h3>Projects</h3>
+          <ul class="bullets">
+            <li>
+              <strong>Artificial Intelligence for Monitoring Malnutrition (AIMM)</strong> — SNSF & Innosuisse (48 months).<br/>
+              Developing an AI-enhanced, household-operated smartphone tool for real-time nutrition classification using 2D and infrared images.
+            </li>
+            <li>
+              <strong>Data-to-Analysis (D2A)</strong> — SNSF Spark (Apr 2021 – Dec 2023).<br/>
+              Developed a smartphone application for monitoring child nutrition in crisis-affected settings; led and evaluated a seven-month feasibility study with 180 households in Kenya; ensured GDPR-compliant data protection and quality assurance.
+            </li>
+            <li>
+              <strong>Moulding Early Risk Indicators to Anticipate Malnutrition (MERIAM)</strong> — FCDO (Sep 2019 – Mar 2021).<br/>
+              Developed agent-based models (ABM) for early warning of malnutrition crises in East Africa; monitored spatio-temporal dynamics across five regions; produced analyses, reports, and interactive maps for policy decision-making.
+            </li>
+          </ul>
         </div>
+
+        <div class="spacer"></div>
+
         <div class="card">
-          <h3>Smartphone survey methods</h3>
-          <p>Intuitive, culturally adapted mobile surveys that improve data quality and reduce respondent burden.</p>
-        </div>
-        <div class="card">
-          <h3>Data science for decision-making</h3>
-          <p>Linking monitoring to policy through validation, accuracy evaluation, and evidence translation.</p>
+          <h3>Selected publications</h3>
+          <ol class="pubs">
+            <li>
+              <a href="https://doi.org/10.3389/fpubh.2025.1695850" target="_blank" rel="noopener">
+                Autonomous Nutrition Reporting by Households: Piloting an Open-Source Smartphone App in Rural Kenya
+              </a> (2025).
+            </li>
+            <li>
+              <a href="https://doi.org/10.1007/s11558-024-09530-x" target="_blank" rel="noopener">
+                International Constitutional Advising: Introducing a New Dataset
+              </a> (2024).
+            </li>
+            <li>
+              <a href="https://doi.org/10.1080/2474736X.2023.2257368" target="_blank" rel="noopener">
+                Drivers of COVID-19 Protest Across Localities in Israel: A Machine-learning Approach
+              </a> (2023).
+            </li>
+            <li>
+              <a href="https://doi.org/10.3389/fsufs.2023.1091346" target="_blank" rel="noopener">
+                Trajectories of Resilience to Acute Malnutrition in the Kenyan Drylands
+              </a> (2023).
+            </li>
+            <li>
+              <a href="https://doi.org/10.1038/s41599-023-01547-8" target="_blank" rel="noopener">
+                Household Behavior and Vulnerability to Acute Malnutrition in Kenya
+              </a> (2023).
+            </li>
+          </ol>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- AIMM PROJECT -->
-  <section id="projects" class="section section-alt">
-    <div class="container">
-      <h2>Research project</h2>
-      <div class="card">
-        <h3>Artificial Intelligence for Monitoring Malnutrition (AIMM)</h3>
-        <p class="pub-meta">Funded by SNSF & Innosuisse · Duration: 48 months</p>
+    <!-- CONSULTING -->
+    <section id="consulting" class="section">
+      <div class="container">
+        <h2>Consulting</h2>
 
-        <p>
-          AIMM develops a low-cost, household-operated tool for monitoring child undernutrition using image-based AI,
-          enabling real-time classification without physical scales or measuring tapes.
-        </p>
+        <div class="card">
+          <p>
+            I support research teams, NGOs, and public-sector partners with field-ready measurement and monitoring designs,
+            including smartphone surveys, validation studies, and data-to-decision workflows.
+          </p>
 
-        <ul class="bullets">
-          <li><strong>Accuracy:</strong> Deep learning models estimate weight, height, MUAC, and WHZ from images.</li>
-          <li><strong>Low cost:</strong> Replaces expensive, infrequent surveys with real-time monitoring.</li>
-          <li><strong>Empowerment:</strong> Caregivers self-monitor children using a non-invasive mobile app.</li>
-          <li><strong>Adaptability:</strong> Open-source design enables uptake across health systems.</li>
-        </ul>
+          <ul class="bullets">
+            <li>Survey and app UX for low-resource / crisis settings</li>
+            <li>Validation & diagnostic accuracy study design</li>
+            <li>Monitoring systems and operational workflows</li>
+            <li>Applied data science for program decision-making</li>
+          </ul>
+
+          <p class="pub-meta">
+            For inquiries: <a href="mailto:hello@ninaslink.com">hello@ninaslink.com</a>
+          </p>
+        </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- PUBLICATIONS -->
-  <section id="publications" class="section">
-    <div class="container">
-      <h2>Selected publications</h2>
-      <ol class="pubs">
-        <li>Bhavnani & Link (2025). Autonomous Nutrition Reporting by Households. Under review.</li>
-        <li>Bhavnani et al. (2023). Trajectories of Resilience to Child Undernutrition. Frontiers.</li>
-        <li>Bhavnani et al. (2023). Household Behavior and Vulnerability. HSS Communications.</li>
-        <li>MERIAM (2021). Simulating Child Undernutrition Toolkit (SAMT).</li>
-      </ol>
-    </div>
-  </section>
+    <!-- RESOURCES -->
+    <section id="resources" class="section section-alt">
+      <div class="container">
+        <h2>Resources</h2>
 
-  <!-- CONTACT -->
-  <section id="contact" class="section section-alt">
-    <div class="container">
-      <h2>Contact</h2>
-      <div class="card">
-        <p>Email: <strong>add-your-email-here</strong></p>
-        <p>
-          ORCID:
-          <a href="https://orcid.org/0000-0003-4726-0865" target="_blank">
-            0000-0003-4726-0865
-          </a>
-        </p>
+        <div class="card">
+          <p>Templates (GitHub):</p>
+          <ul class="bullets">
+            <li><a href="#" target="_blank" rel="noopener">Smartphone survey template (placeholder)</a></li>
+            <li><a href="#" target="_blank" rel="noopener">Fieldwork checklist (placeholder)</a></li>
+            <li><a href="#" target="_blank" rel="noopener">Validation study reporting template (placeholder)</a></li>
+          </ul>
+          <p class="pub-meta">Replace the placeholders with direct GitHub links.</p>
+        </div>
       </div>
-    </div>
-  </section>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section">
+      <div class="container">
+        <h2>Contact</h2>
+
+        <div class="card">
+          <p>Email: <a href="mailto:hello@ninaslink.com">hello@ninaslink.com</a></p>
+          <p>
+            ORCID:
+            <a href="https://orcid.org/0000-0003-4726-0865" target="_blank" rel="noopener">
+              0000-0003-4726-0865
+            </a>
+          </p>
+          <p>
+            GitHub:
+            <a href="https://github.com/ninslink" target="_blank" rel="noopener">
+              github.com/ninslink
+            </a>
+          </p>
+        </div>
+      </div>
+    </section>
+  </main>
 
   <footer class="site-footer">
     <div class="container footer-row">
