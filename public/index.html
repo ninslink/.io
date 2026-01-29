@@ -3,11 +3,141 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
+
   <title>Nina Sophia Link | Postdoctoral Researcher</title>
+  <meta name="description" content="Postdoctoral researcher at the Geneva Graduate Institute working on child nutrition monitoring, smartphone surveys, and AI-enabled decision-making in crises." />
+
   <link rel="stylesheet" href="style.css" />
 </head>
+
 <body>
-  <h1>Nina Sophia Link</h1>
-  <p>If you see this, deployment works. Replace with full HTML after upload.</p>
+  <header class="site-header">
+    <div class="container topbar">
+      <div class="brand">
+        <div class="name">Nina Sophia Link</div>
+        <div class="role">Postdoctoral Researcher · Geneva Graduate Institute</div>
+      </div>
+      <nav class="nav">
+        <a href="#research">Research</a>
+        <a href="#projects">AIMM</a>
+        <a href="#publications">Publications</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero hero-image">
+    <img src="images/header.jpg" alt="Fieldwork" class="hero-img" />
+    <div class="hero-overlay"></div>
+
+    <div class="container hero-content">
+      <h1>Community-led nutrition monitoring, powered by fieldwork and data science.</h1>
+
+      <p class="lead">
+        I am a postdoctoral researcher in International Relations / Political Science at the Geneva Graduate Institute.
+        My research combines fieldwork, intuitive and culturally adapted smartphone surveys, and data science to advance
+        community-led monitoring of child nutrition and evidence-based decision-making in times of crisis.
+      </p>
+
+      <p class="lead">
+        I completed my PhD at the Institute, examining the social and behavioral roots of child undernutrition in Kenya.
+        I currently work on the SNSF- and Innosuisse-funded <strong>Artificial Intelligence for Monitoring Malnutrition (AIMM)</strong>,
+        developing and testing an AI-enhanced smartphone app for accurate, timely, and non-intrusive nutrition monitoring
+        in low-resource settings.
+      </p>
+
+      <div class="pill-row">
+        <span class="pill">Global health</span>
+        <span class="pill">Nutrition</span>
+        <span class="pill">Monitoring</span>
+        <span class="pill">SDG2</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- RESEARCH -->
+  <section id="research" class="section">
+    <div class="container">
+      <h2>Research</h2>
+      <div class="grid-3">
+        <div class="card">
+          <h3>Fieldwork & community-led monitoring</h3>
+          <p>Designing measurement systems that fit local realities and empower communities to generate actionable data.</p>
+        </div>
+        <div class="card">
+          <h3>Smartphone survey methods</h3>
+          <p>Intuitive, culturally adapted mobile surveys that improve data quality and reduce respondent burden.</p>
+        </div>
+        <div class="card">
+          <h3>Data science for decision-making</h3>
+          <p>Linking monitoring to policy through validation, accuracy evaluation, and evidence translation.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- AIMM PROJECT -->
+  <section id="projects" class="section section-alt">
+    <div class="container">
+      <h2>Research project</h2>
+      <div class="card">
+        <h3>Artificial Intelligence for Monitoring Malnutrition (AIMM)</h3>
+        <p class="pub-meta">Funded by SNSF & Innosuisse · Duration: 48 months</p>
+
+        <p>
+          AIMM develops a low-cost, household-operated tool for monitoring child undernutrition using image-based AI,
+          enabling real-time classification without physical scales or measuring tapes.
+        </p>
+
+        <ul class="bullets">
+          <li><strong>Accuracy:</strong> Deep learning models estimate weight, height, MUAC, and WHZ from images.</li>
+          <li><strong>Low cost:</strong> Replaces expensive, infrequent surveys with real-time monitoring.</li>
+          <li><strong>Empowerment:</strong> Caregivers self-monitor children using a non-invasive mobile app.</li>
+          <li><strong>Adaptability:</strong> Open-source design enables uptake across health systems.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- PUBLICATIONS -->
+  <section id="publications" class="section">
+    <div class="container">
+      <h2>Selected publications</h2>
+      <ol class="pubs">
+        <li>Bhavnani & Link (2025). Autonomous Nutrition Reporting by Households. Under review.</li>
+        <li>Bhavnani et al. (2023). Trajectories of Resilience to Child Undernutrition. Frontiers.</li>
+        <li>Bhavnani et al. (2023). Household Behavior and Vulnerability. HSS Communications.</li>
+        <li>MERIAM (2021). Simulating Child Undernutrition Toolkit (SAMT).</li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section section-alt">
+    <div class="container">
+      <h2>Contact</h2>
+      <div class="card">
+        <p>Email: <strong>add-your-email-here</strong></p>
+        <p>
+          ORCID:
+          <a href="https://orcid.org/0000-0003-4726-0865" target="_blank">
+            0000-0003-4726-0865
+          </a>
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container footer-row">
+      <div>© <span id="year"></span> Nina Sophia Link</div>
+      <div class="muted">Hosted on Cloudflare</div>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
 </body>
 </html>
