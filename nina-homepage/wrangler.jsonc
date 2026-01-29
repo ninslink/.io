@@ -1,6 +1,0 @@
-{
-  "name": "nina-homepage",
-  "compatibility_date": "2026-01-29",
-  "main": "src/index.js",
-  "assets": { "directory": "public" }
-}
